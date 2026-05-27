@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+    <link rel="icon" type="image/png" href="favicon.png">
     <script>
         tailwind.config = {
             theme: {
@@ -96,18 +96,22 @@
     <!-- 1. NAVBAR -->
     <nav class="fixed top-0 left-0 w-full z-50 glass border-b border-white/5 px-6 py-4 transition-all duration-300">
         <div class="max-w-7xl mx-auto flex items-center justify-between">
-            <!-- Logo -->
-            <a href="#" class="flex items-center gap-3 group">
-                <div class="relative w-10 h-10 flex items-center justify-center rounded-full border border-white/20 bg-darkBg overflow-hidden">
-                    <div class="absolute inset-0 bg-gradient-premium opacity-20 group-hover:opacity-40 transition-opacity"></div>
-                    <span class="text-xl font-bold text-softWhite relative z-10 font-sans pl-[1px]">H</span>
-                    <div class="absolute inset-0 border-2 border-transparent border-t-electricBlue border-r-modernPurple rounded-full animate-spin" style="animation-duration: 8s;"></div>
-                </div>
-                <span class="text-xl font-bold tracking-tight">
-                    <span class="text-softWhite">Horizonte</span><span class="text-gradient">Web</span>
-                </span>
-            </a>
+            
+             <!-- Logo -->
+     <a href="#" class="flex items-center gap-3 group">
+    
+    <img 
+        src="logo.png" 
+        alt="HorizonteWeb Logo"
+        class="w-12 h-12 object-cover rounded-full border border-white/20"
+    >
 
+    <span class="text-xl font-bold tracking-tight">
+        <span class="text-softWhite">Horizonte</span>
+        <span class="text-gradient">Web</span>
+    </span>
+
+      </a>
             <!-- Menu Desktop -->
             <div class="hidden md:flex items-center gap-8 text-sm font-medium text-elegantGray">
                 <a href="#" class="hover:text-softWhite transition-colors">Inicio</a>
